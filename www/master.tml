@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <title>{{ title }}{% block subtitle %}{% endblock %}</title>
+    </head>
+    <body>
+        {% block contents %}
+        {% endblock %}
+    </body>
+</html>
